@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #page-wrapper {
@@ -20,28 +21,59 @@ html {
     height: 10rem;
     border: 2px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #header-img {
-    width: 10rem;
+    display: flex;
+    width: 50vw;
+    margin-left: 3rem;
     height: 9.7rem;
     border: 2px solid orange;
+    align-items: center;
+}
+
+#logo {
+    max-width: 15rem;
+}
+
+.logo-paragraph {
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(156, 74, 6);
+    text-shadow: 6px 4px 9px rgba(206,127,31,0.82);
 }
 
 #nav-bar {
     display: flex;
-    width: 40rem;
+    margin-right: 3rem;
+    width: 40vw;
     height: 9.7rem;
     border: 2px solid orange;
     align-items: center;
     justify-content: center;
 }
 
+.nav-bar-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .nav-link {
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: inline-block;
-    margin: 0 2rem;
-    
+    color: rgb(156, 74, 6);
+}
+
+/* Form Section*/
+
+.form-section {
+    width: 100%;
+    height: 20rem;
+    border: 2px solid red;
+    margin-top: 10rem;
 }
