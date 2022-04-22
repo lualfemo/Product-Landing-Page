@@ -10,9 +10,12 @@ html {
 }
 
 #page-wrapper {
+    display: flex;
     width: 100%;
     height: 200rem;
     border: 2px solid blue;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header {
@@ -133,3 +136,31 @@ input[type="submit"]:hover {
 input[type="email"]:focus {
     outline: 2px solid rgba(255, 128, 0, 0.82);
 }
+
+/*main container*/
+
+.main-container {
+    display: flex;
+    width: 90%;
+    height: 100rem;
+    border: 2px solid green;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-features {
+    display: flex;
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.product-features_boxes {
+    width: 100%;
+    height: 15rem;
+    border: 2px solid brown;
+}
+
+/*Product features container*/
+
