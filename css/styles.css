@@ -142,7 +142,7 @@ input[type="email"]:focus {
 .main-container {
     display: flex;
     width: 90%;
-    height: 100rem;
+    height: 150rem;
     border: 2px solid green;
     flex-direction: column;
     align-items: center;
@@ -208,5 +208,34 @@ input[type="email"]:focus {
 #video {
     width: 100%;
     height: 30rem;
+}
+
+.prices-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 30rem;
+    border: 1px solid brown;
+}
+
+.prices-container_boxes {
+    width: 25rem;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+}
+
+.product-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border: 1px solid darkorange;
+    background-color: rgba(255, 128, 0, 0.82);
+}
+
+.product-type p {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
