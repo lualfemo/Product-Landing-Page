@@ -28,7 +28,7 @@ html {
     background-color: rgb(231, 231, 231);
 }
 
-#header-img {
+#header-img2 {
     display: flex;
     width: 50vw;
     margin-left: 3rem;
@@ -37,7 +37,7 @@ html {
     align-items: center;
 }
 
-#logo {
+.logo {
     max-width: 15rem;
 }
 
