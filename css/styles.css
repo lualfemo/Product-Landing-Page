@@ -30,33 +30,37 @@ html {
 
 #header-img2 {
     display: flex;
-    width: 50vw;
+    width: 100%;
     margin-left: 3rem;
     height: 9.7rem;
     /* border: 2px solid orange; */
     align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
+    margin-left: 3rem;
     max-width: 15rem;
 }
 
 .logo-paragraph {
-    display: inline-block;
+    display: block;
     font-size: 3.5rem;
     font-weight: 600;
     color: rgb(156, 74, 6);
     text-shadow: 6px 4px 9px rgba(206,127,31,0.82);
+    padding: 2rem;
+    margin-right: 15rem;
 }
 
 #nav-bar {
     display: flex;
     margin-right: 3rem;
     width: 40vw;
-    height: 9.7rem;
     /* border: 2px solid orange; */
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 .nav-bar-list {
@@ -70,6 +74,12 @@ html {
     font-size: 1.8rem;
     display: inline-block;
     color: rgb(156, 74, 6);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.nav-link2:hover {
+    background-color: rgba(255, 128, 0, 0.82);
 }
 
 /* Form Section*/
