@@ -32,11 +32,10 @@ html {
 #header-img2 {
     display: flex;
     width: 100%;
-    margin-left: 3rem;
+    margin-left: 0;
     height: 9.7rem;
     /* border: 2px solid orange; */
-    align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .logo {
@@ -51,7 +50,7 @@ html {
     color: rgb(156, 74, 6);
     text-shadow: 6px 4px 9px rgba(206,127,31,0.82);
     padding: 2rem;
-    margin-right: 15rem;
+    margin-left: 5rem;
 }
 
 #nav-bar {
@@ -270,7 +269,13 @@ ul li {
     margin: 15px;
     padding: 10px 20px;
     background-color: rgba(255, 128, 0, 0.82);
+    color: white;
     font-size: 1.8rem;
+}
+
+.button:hover {
+    background-color: rgba(228, 78, 19, 0.82);
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.45);
 }
 
 .footer {
@@ -304,6 +309,37 @@ span {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+    #header {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #header-img2 {
+        margin-left: 0;
+       }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .logo-paragraph {
+        margin-right: 3rem;
+        padding: 1rem;
+    }
+
+    #nav-bar{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form-section {
+        margin-top: 15rem;
+    }
+
+    .video-container {
+        width: 80%;
+    }
+
     .prices-container{
         display: flex;
         /* border: 1px solid red; */
@@ -319,7 +355,7 @@ span {
 
 /*ESTILOS MOBILE*/
 
-@media screen and (man-width: 767px){
+@media screen and (max-width: 767px){
 
     #header {
         display: flex;
@@ -334,10 +370,48 @@ span {
 
     .logo-paragraph {
     text-align: center;
+    margin: auto;
+    padding: 1rem;
     }
 
     #nav-bar {
     width: 100%;
     margin-right: 0;
+    }
+
+    .form-section {
+        margin-top: 14rem;
+    }
+
+    .main-paragraph {
+        font-size: 2.1rem;
+    }
+
+    .product-features_boxes {
+        margin-top: 2rem;
+    }
+
+    .icon-description {
+        margin-left: 3rem;
+    }
+
+    .video-container {
+        width: 90%;
+    }
+
+    .prices-container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .prices-container_boxes {
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+    .footer {
+        margin-top: 2rem;
     }
 }
